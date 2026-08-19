@@ -13,7 +13,7 @@ export default function ThreadCard({ thread, goBack }) {
   const handleDownvote = async () => {
     alert("Downvote clicked!");
   };
-
+//
   return (
     <Card className="single-thread-card">
       <Card.Body>
